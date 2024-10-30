@@ -9,6 +9,10 @@ const seriesCollection = defineCollection({
         name: z.string(),
         lang: z.enum(supportedLanguages),
         tcgBrand: z.string(),
+        sets: z.array(z.object({
+            set: z.any(),
+            cardCount: z.number(),
+        })),
     }),
 });
 
