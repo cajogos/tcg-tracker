@@ -1,37 +1,54 @@
 ---
-import Layout from '../../layouts/Layout.astro';
-import { getCollection } from 'astro:content';
-import type { CollectionEntry } from 'astro:content';
-import Card from '../../components/Card.astro';
+import Layout from "../../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import Card from "../../components/Card.astro";
 
 export async function getStaticPaths() {
-    const allSets = await getCollection('sets');
-    return allSets.map((set: CollectionEntry<'sets'>) => ({
+    const allSets = await getCollection("sets");
+    return allSets.map((set: CollectionEntry<"sets">) => ({
         params: { set: set.id },
         props: { set },
     }));
 }
 
-// Access the set data from the props
-const { set }: {
-    set: CollectionEntry<'sets'>;
+const {
+    set,
+}: {
+    set: CollectionEntry<"sets">;
 } = Astro.props;
 ---
 
-<Layout title={set.data.name} description={`Details about the ${set.data.name} set`}>
+<Layout
+    title={set.data.name}
+    description={`Details about the ${set.data.name} set`}
+>
     <div class="container mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <!-- Back to All Sets Link -->
         <div class="mb-6">
-            <a href="/" class="text-indigo-600 hover:text-indigo-800 font-semibold flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm-2.707-7.707a1 1 0 010-1.414L11.586 5H7a1 1 0 100 2h6a1 1 0 001-1V5a1 1 0 00-1-1H7a1 1 0 000 2h4.586l-4.293 4.293a1 1 0 000 1.414z" clip-rule="evenodd" />
+            <a
+                href="/"
+                class="text-indigo-600 hover:text-indigo-800 font-semibold flex items-center"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5 mr-2"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                >
+                    <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm-2.707-7.707a1 1 0 010-1.414L11.586 5H7a1 1 0 100 2h6a1 1 0 001-1V5a1 1 0 00-1-1H7a1 1 0 000 2h4.586l-4.293 4.293a1 1 0 000 1.414z"
+                        clip-rule="evenodd"></path>
                 </svg>
                 Back to All Sets
             </a>
         </div>
 
         <!-- Set Title -->
-        <h1 class="text-5xl font-extrabold text-center mb-10 text-indigo-800">{set.data.name}</h1>
+        <h1 class="text-5xl font-extrabold text-center mb-10 text-indigo-800">
+            {set.data.name}
+        </h1>
 
         <!-- Set Details -->
         <div class="bg-white p-8 rounded-lg shadow-xl mb-12 text-gray-700">
@@ -44,11 +61,76 @@ const { set }: {
         </div>
 
         <!-- Cards in Set -->
-        <h2 class="text-3xl font-bold mb-6 text-gray-800">Cards in {set.data.name}</h2>
+        <h2 class="text-3xl font-bold mb-6 text-gray-800">
+            Cards in {set.data.name}
+        </h2>
         <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
-            {set.data.cards.map((card: any) => (
-                <Card set={set.data.id} name={card.name} number={card.number} obtained={card.obtained} binder={card.binder} />
-            ))}
+            {
+                set.data.cards.map((card: any) => (
+                    <Card
+                        set={set.data.id}
+                        name={card.name}
+                        number={card.number}
+                        obtained={card.obtained}
+                        binder={card.binder}
+                    />
+                ))
+            }
         </ul>
+
+        <!-- Modal Component -->
+        <div
+            id="imageModal"
+            class="fixed inset-0 z-50 hidden bg-black bg-opacity-50 flex items-center justify-center"
+        >
+            <div class="bg-white p-4 rounded-lg relative max-w-lg w-full">
+                <button
+                    id="closeModal"
+                    class="absolute top-2 right-2 text-black text-lg font-bold"
+                    >✕</button
+                >
+                <img
+                    id="modalImage"
+                    src=""
+                    alt="Card Preview"
+                    class="max-w-full max-h-screen"
+                />
+            </div>
+        </div>
     </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const modal: HTMLDivElement = document.getElementById(
+                "imageModal",
+            ) as HTMLDivElement;
+
+            const modalImage: HTMLImageElement = document.getElementById(
+                "modalImage",
+            ) as HTMLImageElement;
+            const closeModal: HTMLButtonElement = document.getElementById(
+                "closeModal",
+            ) as HTMLButtonElement;
+
+            document.querySelectorAll(".card-image").forEach((img) => {
+                img.addEventListener("click", (e: Event) => {
+                    const target = e.target as HTMLImageElement;
+                    modalImage.src = target.dataset.imagePath as string;
+                    modal.classList.remove("hidden");
+                });
+            });
+
+            closeModal.addEventListener("click", () => {
+                modal.classList.add("hidden");
+                modalImage.src = "";
+            });
+
+            modal.addEventListener("click", (e) => {
+                if (e.target === modal) {
+                    modal.classList.add("hidden");
+                    modalImage.src = "";
+                }
+            });
+        });
+    </script>
 </Layout>

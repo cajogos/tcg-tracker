@@ -1,5 +1,5 @@
 ---
-import { Image } from 'astro:assets';
+import { Image } from "astro:assets";
 
 interface Props {
 	set: string;
@@ -11,24 +11,47 @@ interface Props {
 
 const { set, name, number, obtained, binder }: Props = Astro.props;
 
-const imagePath = `/images/${set}/${set}-${number.replace('#', '')}.png`;
+const imagePath = `/images/${set}/${set}-${number.replace("#", "")}.png`;
 ---
 
-<li class="bg-indigo-50 p-4 rounded-md shadow-sm hover:bg-indigo-100 transition flex items-center space-x-4">
-	<Image src={imagePath} alt={name} width={80} height={112} class="rounded-md" />
+<li
+	class="bg-indigo-50 p-4 rounded-md shadow-sm hover:bg-indigo-100 transition flex items-center space-x-4"
+>
+	<Image
+		src={imagePath}
+		alt={name}
+		width={80}
+		height={112}
+		class="rounded-md cursor-pointer card-image"
+		data-image-path={imagePath}
+	/>
 	<div class="flex-1">
-		<div class="text-lg font-semibold text-gray-800">{number}: <span class="text-indigo-700">{name}</span></div>
+		<div class="text-lg font-semibold text-gray-800">
+			{number}: <span class="text-indigo-700">{name}</span>
+		</div>
 		<div class="mt-2 flex space-x-2">
-			{obtained ? (
-				<span class="text-green-600 bg-green-100 px-2 py-1 rounded-full text-xs font-semibold">Obtained</span>
-			) : (
-				<span class="text-red-600 bg-red-100 px-2 py-1 rounded-full text-xs font-semibold">Not Obtained</span>
-			)}
-			{binder ? (
-				<span class="text-blue-600 bg-blue-100 px-2 py-1 rounded-full text-xs font-semibold">In Binder</span>
-			) : (
-				<span class="text-gray-500 bg-gray-200 px-2 py-1 rounded-full text-xs font-semibold">Not in Binder</span>
-			)}
+			{
+				obtained ? (
+					<span class="text-green-600 bg-green-100 px-2 py-1 rounded-full text-xs font-semibold">
+						Obtained
+					</span>
+				) : (
+					<span class="text-red-600 bg-red-100 px-2 py-1 rounded-full text-xs font-semibold">
+						Missing
+					</span>
+				)
+			}
+			{
+				binder ? (
+					<span class="text-blue-600 bg-blue-100 px-2 py-1 rounded-full text-xs font-semibold">
+						In Binder
+					</span>
+				) : (
+					<span class="text-gray-500 bg-gray-200 px-2 py-1 rounded-full text-xs font-semibold">
+						Not in Binder
+					</span>
+				)
+			}
 		</div>
 	</div>
 </li>
