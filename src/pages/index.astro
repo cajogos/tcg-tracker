@@ -1,7 +1,45 @@
 ---
 import Layout from '../layouts/Layout.astro';
+
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+
+const allSeries: CollectionEntry<'series'>[] = await getCollection('series');
+const allSets: CollectionEntry<'sets'>[] = await getCollection('sets');
+
+// Initialize each series item with an empty sets array
+for (let i = 0; i < allSeries.length; i++) {
+	allSeries[i].data.sets = [];
+}
+
+// Link each set to the corresponding series
+allSets.forEach((set) => {
+	const series = allSeries.find((series) => series.url === set.data.series);
+	if (series) {
+		series.data.sets.push(set);
+	}
+});
 ---
 
 <Layout title="TCG Card Collection" description="My collection of trading cards">
-	<h1>TCG Card Collection</h1>
+	<div class="container mx-auto py-12 px-4 sm:px-6 lg:px-8">
+		<h1 class="text-4xl font-bold text-center mb-12 text-gray-800">TCG Tracker</h1>
+
+		<div class="space-y-10">
+			{allSeries.map((series) => (
+				<div class="bg-white p-8 border border-gray-200 rounded-lg shadow-lg transition transform hover:scale-105">
+					<h2 class="text-3xl font-bold text-indigo-700 mb-6">
+						<span class="text-gray-600">Series:</span> {series.data.name}
+					</h2>
+					<ul class="space-y-3">
+						{series.data.sets.map((set: CollectionEntry<'sets'>) => (
+							<li class="bg-indigo-50 p-4 rounded-md shadow-sm hover:bg-indigo-100 transition">
+								<strong class="text-gray-800">Set:</strong> <span class="text-indigo-700">{set.data.name}</span>
+							</li>
+						))}
+					</ul>
+				</div>
+			))}
+		</div>
+	</div>
 </Layout>
