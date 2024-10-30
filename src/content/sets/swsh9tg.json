@@ -8,123 +8,183 @@
     "cards": [
         {
             "name": "Flareon",
-            "number": "#TG001"
+            "number": "#TG001",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Vaporeon",
-            "number": "#TG002"
+            "number": "#TG002",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Octillery",
-            "number": "#TG003"
+            "number": "#TG003",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Jolteon",
-            "number": "#TG004"
+            "number": "#TG004",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Zekrom",
-            "number": "#TG005"
+            "number": "#TG005",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Dusknoir",
-            "number": "#TG006"
+            "number": "#TG006",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Dedenne",
-            "number": "#TG007"
+            "number": "#TG007",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Alcremie",
-            "number": "#TG008"
+            "number": "#TG008",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Ariados",
-            "number": "#TG009"
+            "number": "#TG009",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Houndoom",
-            "number": "#TG010"
+            "number": "#TG010",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Eevee",
-            "number": "#TG011"
+            "number": "#TG011",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Oranguru",
-            "number": "#TG012"
+            "number": "#TG012",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Boltund V",
-            "number": "#TG013"
+            "number": "#TG013",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Sylveon V",
-            "number": "#TG014"
+            "number": "#TG014",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Sylveon VMAX",
-            "number": "#TG015"
+            "number": "#TG015",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Mimikyu V",
-            "number": "#TG016"
+            "number": "#TG016",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Mimikyu VMAX",
-            "number": "#TG017"
+            "number": "#TG017",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Single Strike Urshifu V",
-            "number": "#TG018"
+            "number": "#TG018",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Single Strike Urshifu VMAX",
-            "number": "#TG019"
+            "number": "#TG019",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Rapid Strike Urshifu V",
-            "number": "#TG020"
+            "number": "#TG020",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Rapid Strike Urshifu VMAX",
-            "number": "#TG021"
+            "number": "#TG021",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Umbreon V",
-            "number": "#TG022"
+            "number": "#TG022",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Umbreon VMAX",
-            "number": "#TG023"
+            "number": "#TG023",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Acerola's Premonition",
-            "number": "#TG024"
+            "number": "#TG024",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Café Master",
-            "number": "#TG025"
+            "number": "#TG025",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Gloria",
-            "number": "#TG026"
+            "number": "#TG026",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Rapid Strike Style Mustard",
-            "number": "#TG027"
+            "number": "#TG027",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Single Strike Style Mustard",
-            "number": "#TG028"
+            "number": "#TG028",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Single Strike Urshifu VMAX",
-            "number": "#TG029"
+            "number": "#TG029",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Rapid Strike Urshifu VMAX",
-            "number": "#TG030"
+            "number": "#TG030",
+            "obtained": false,
+            "binder": false
         }
     ]
 }

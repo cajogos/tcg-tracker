@@ -12,11 +12,15 @@ for (let i = 0; i < allSeries.length; i++) {
 	allSeries[i].data.sets = [];
 }
 
-// Link each set to the corresponding series
+// Link each set to the corresponding series and add cardCount to each set
 allSets.forEach((set) => {
-	const series = allSeries.find((series) => series.url === set.data.series);
+	const series = allSeries.find((series) => series.id === set.data.seriesId);
 	if (series) {
-		series.data.sets.push(set);
+		// Add the set to the series's sets array
+		series.data.sets.push({
+			...set,
+			cardCount: set.data.cards.length, // Add card count directly to the set
+		});
 	}
 });
 ---
@@ -32,11 +36,25 @@ allSets.forEach((set) => {
 						<span class="text-gray-600">Series:</span> {series.data.name}
 					</h2>
 					<ul class="space-y-3">
-						{series.data.sets.map((set: CollectionEntry<'sets'>) => (
-							<li class="bg-indigo-50 p-4 rounded-md shadow-sm hover:bg-indigo-100 transition">
-								<strong class="text-gray-800">Set:</strong> <span class="text-indigo-700">{set.data.name}</span>
-							</li>
-						))}
+						{series.data.sets.map((set: any) => {
+
+							const setStyles = set.cardCount > 0
+								? "bg-indigo-50 p-4 rounded-md shadow-sm hover:bg-indigo-100 transition"
+								: "bg-gray-100 p-4 rounded-md shadow-sm opacity-50 cursor-not-allowed";
+
+							return (
+								<li class={setStyles}>
+									<div class="flex justify-between items-center">
+										<div>
+											<strong class="text-gray-800">Set:</strong> <span class="text-indigo-700">{set.data.name}</span>
+										</div>
+										<div class="text-gray-600">
+											<strong>Cards:</strong> {set.cardCount}
+										</div>
+									</div>
+								</li>
+							);
+						})}
 					</ul>
 				</div>
 			))}
