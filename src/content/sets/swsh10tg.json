@@ -8,123 +8,183 @@
     "cards": [
         {
             "name": "Abomasnow",
-            "number": "#TG001"
+            "number": "#TG001",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Flapple",
-            "number": "#TG002"
+            "number": "#TG002",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Kingdra",
-            "number": "#TG003"
+            "number": "#TG003",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Frosmoth",
-            "number": "#TG004"
+            "number": "#TG004",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Gardevoir",
-            "number": "#TG005"
+            "number": "#TG005",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Wyrdeer",
-            "number": "#TG006"
+            "number": "#TG006",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Falinks",
-            "number": "#TG007"
+            "number": "#TG007",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Kleavor",
-            "number": "#TG008"
+            "number": "#TG008",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Mightyena",
-            "number": "#TG009"
+            "number": "#TG009",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Galarian Obstagoon",
-            "number": "#TG010"
+            "number": "#TG010",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Bronzong",
-            "number": "#TG011"
+            "number": "#TG011",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Hoothoot",
-            "number": "#TG012"
+            "number": "#TG012",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Starmie V",
-            "number": "#TG013"
+            "number": "#TG013",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Ice Rider Calyrex V",
-            "number": "#TG014"
+            "number": "#TG014",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Ice Rider Calyrex VMAX",
-            "number": "#TG015"
+            "number": "#TG015",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Galarian Articuno V",
-            "number": "#TG016"
+            "number": "#TG016",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Shadow Rider Calyrex V",
-            "number": "#TG017"
+            "number": "#TG017",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Shadow Rider Calyrex VMAX",
-            "number": "#TG018"
+            "number": "#TG018",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Galarian Zapdos V",
-            "number": "#TG019"
+            "number": "#TG019",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Galarian Moltres V",
-            "number": "#TG020"
+            "number": "#TG020",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Zacian V",
-            "number": "#TG021"
+            "number": "#TG021",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Zamazenta V",
-            "number": "#TG022"
+            "number": "#TG022",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Garchomp V",
-            "number": "#TG023"
+            "number": "#TG023",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Allister",
-            "number": "#TG024"
+            "number": "#TG024",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Bea",
-            "number": "#TG025"
+            "number": "#TG025",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Melony",
-            "number": "#TG026"
+            "number": "#TG026",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Milo",
-            "number": "#TG027"
+            "number": "#TG027",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Piers",
-            "number": "#TG028"
+            "number": "#TG028",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Ice Rider Calyrex VMAX",
-            "number": "#TG029"
+            "number": "#TG029",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Shadow Rider Calyrex VMAX",
-            "number": "#TG030"
+            "number": "#TG030",
+            "obtained": false,
+            "binder": false
         }
     ]
 }

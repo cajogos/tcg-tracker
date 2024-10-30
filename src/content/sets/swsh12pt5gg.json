@@ -8,283 +8,423 @@
     "cards": [
         {
             "name": "Hisuian Voltorb",
-            "number": "#GG001"
+            "number": "#GG001",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Kricketune",
-            "number": "#GG002"
+            "number": "#GG002",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Magmortar",
-            "number": "#GG003"
+            "number": "#GG003",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Oricorio",
-            "number": "#GG004"
+            "number": "#GG004",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Lapras",
-            "number": "#GG005"
+            "number": "#GG005",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Manaphy",
-            "number": "#GG006"
+            "number": "#GG006",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Keldeo",
-            "number": "#GG007"
+            "number": "#GG007",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Electivire",
-            "number": "#GG008"
+            "number": "#GG008",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Toxtricity",
-            "number": "#GG009"
+            "number": "#GG009",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Mew",
-            "number": "#GG010"
+            "number": "#GG010",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Lunatone",
-            "number": "#GG011"
+            "number": "#GG011",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Deoxys",
-            "number": "#GG012"
+            "number": "#GG012",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Diancie",
-            "number": "#GG013"
+            "number": "#GG013",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Comfey",
-            "number": "#GG014"
+            "number": "#GG014",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Solrock",
-            "number": "#GG015"
+            "number": "#GG015",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Absol",
-            "number": "#GG016"
+            "number": "#GG016",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Thievul",
-            "number": "#GG017"
+            "number": "#GG017",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Magnezone",
-            "number": "#GG018"
+            "number": "#GG018",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Altaria",
-            "number": "#GG019"
+            "number": "#GG019",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Latias",
-            "number": "#GG020"
+            "number": "#GG020",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Hisuian Goodra",
-            "number": "#GG021"
+            "number": "#GG021",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Ditto",
-            "number": "#GG022"
+            "number": "#GG022",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Dunsparce",
-            "number": "#GG023"
+            "number": "#GG023",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Miltank",
-            "number": "#GG024"
+            "number": "#GG024",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Bibarel",
-            "number": "#GG025"
+            "number": "#GG025",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Riolu",
-            "number": "#GG026"
+            "number": "#GG026",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Swablu",
-            "number": "#GG027"
+            "number": "#GG027",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Duskull",
-            "number": "#GG028"
+            "number": "#GG028",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Bidoof",
-            "number": "#GG029"
+            "number": "#GG029",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Pikachu",
-            "number": "#GG030"
+            "number": "#GG030",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Turtwig",
-            "number": "#GG031"
+            "number": "#GG031",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Paras",
-            "number": "#GG032"
+            "number": "#GG032",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Poochyena",
-            "number": "#GG033"
+            "number": "#GG033",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Mareep",
-            "number": "#GG034"
+            "number": "#GG034",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Leafeon VSTAR",
-            "number": "#GG035"
+            "number": "#GG035",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Entei V",
-            "number": "#GG036"
+            "number": "#GG036",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Simisear VSTAR",
-            "number": "#GG037"
+            "number": "#GG037",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Suicune V",
-            "number": "#GG038"
+            "number": "#GG038",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Lumineon V",
-            "number": "#GG039"
+            "number": "#GG039",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Glaceon VSTAR",
-            "number": "#GG040"
+            "number": "#GG040",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Raikou V",
-            "number": "#GG041"
+            "number": "#GG041",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Zeraora VMAX",
-            "number": "#GG042"
+            "number": "#GG042",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Zeraora VSTAR",
-            "number": "#GG043"
+            "number": "#GG043",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Mewtwo VSTAR",
-            "number": "#GG044"
+            "number": "#GG044",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Deoxys VMAX",
-            "number": "#GG045"
+            "number": "#GG045",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Deoxys VSTAR",
-            "number": "#GG046"
+            "number": "#GG046",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Hatterene VMAX",
-            "number": "#GG047"
+            "number": "#GG047",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Zacian V",
-            "number": "#GG048"
+            "number": "#GG048",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Drapion V",
-            "number": "#GG049"
+            "number": "#GG049",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Darkrai VSTAR",
-            "number": "#GG050"
+            "number": "#GG050",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Hisuian Samurott V",
-            "number": "#GG051"
+            "number": "#GG051",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Hisuian Samurott VSTAR",
-            "number": "#GG052"
+            "number": "#GG052",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Hoopa V",
-            "number": "#GG053"
+            "number": "#GG053",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Zamazenta V",
-            "number": "#GG054"
+            "number": "#GG054",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Regigigas VSTAR",
-            "number": "#GG055"
+            "number": "#GG055",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Hisuian Zoroark VSTAR",
-            "number": "#GG056"
+            "number": "#GG056",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Adaman",
-            "number": "#GG057"
+            "number": "#GG057",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Cheren's Care",
-            "number": "#GG058"
+            "number": "#GG058",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Colress's Experiment",
-            "number": "#GG059"
+            "number": "#GG059",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Cynthia's Ambition",
-            "number": "#GG060"
+            "number": "#GG060",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Gardenia's Vigor",
-            "number": "#GG061"
+            "number": "#GG061",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Grant",
-            "number": "#GG062"
+            "number": "#GG062",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Irida",
-            "number": "#GG063"
+            "number": "#GG063",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Melony",
-            "number": "#GG064"
+            "number": "#GG064",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Raihan",
-            "number": "#GG065"
+            "number": "#GG065",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Roxanne",
-            "number": "#GG066"
+            "number": "#GG066",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Origin Forme Palkia VSTAR",
-            "number": "#GG067"
+            "number": "#GG067",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Origin Forme Dialga VSTAR",
-            "number": "#GG068"
+            "number": "#GG068",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Giratina VSTAR",
-            "number": "#GG069"
+            "number": "#GG069",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Arceus VSTAR",
-            "number": "#GG070"
+            "number": "#GG070",
+            "obtained": false,
+            "binder": false
         }
     ]
 }

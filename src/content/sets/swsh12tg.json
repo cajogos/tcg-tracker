@@ -8,123 +8,183 @@
     "cards": [
         {
             "name": "Braixen",
-            "number": "#TG001"
+            "number": "#TG001",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Milotic",
-            "number": "#TG002"
+            "number": "#TG002",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Flaaffy",
-            "number": "#TG003"
+            "number": "#TG003",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Jynx",
-            "number": "#TG004"
+            "number": "#TG004",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Gardevoir",
-            "number": "#TG005"
+            "number": "#TG005",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Malamar",
-            "number": "#TG006"
+            "number": "#TG006",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Rockruff",
-            "number": "#TG007"
+            "number": "#TG007",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Passimian",
-            "number": "#TG008"
+            "number": "#TG008",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Druddigon",
-            "number": "#TG009"
+            "number": "#TG009",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Smeargle",
-            "number": "#TG010"
+            "number": "#TG010",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Altaria",
-            "number": "#TG011"
+            "number": "#TG011",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Kricketune V",
-            "number": "#TG012"
+            "number": "#TG012",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Serperior V",
-            "number": "#TG013"
+            "number": "#TG013",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Blaziken V",
-            "number": "#TG014"
+            "number": "#TG014",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Blaziken VMAX",
-            "number": "#TG015"
+            "number": "#TG015",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Zeraora V",
-            "number": "#TG016"
+            "number": "#TG016",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Mawile V",
-            "number": "#TG017"
+            "number": "#TG017",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Corviknight V",
-            "number": "#TG018"
+            "number": "#TG018",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Corviknight VMAX",
-            "number": "#TG019"
+            "number": "#TG019",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Rayquaza VMAX",
-            "number": "#TG020"
+            "number": "#TG020",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Duraludon VMAX",
-            "number": "#TG021"
+            "number": "#TG021",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Blissey V",
-            "number": "#TG022"
+            "number": "#TG022",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Friends in Galar",
-            "number": "#TG023"
+            "number": "#TG023",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Gordie",
-            "number": "#TG024"
+            "number": "#TG024",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Judge",
-            "number": "#TG025"
+            "number": "#TG025",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Professor Burnet",
-            "number": "#TG026"
+            "number": "#TG026",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Raihan",
-            "number": "#TG027"
+            "number": "#TG027",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Sordward & Shielbert",
-            "number": "#TG028"
+            "number": "#TG028",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Rayquaza VMAX",
-            "number": "#TG029"
+            "number": "#TG029",
+            "obtained": false,
+            "binder": false
         },
         {
             "name": "Duraludon VMAX",
-            "number": "#TG030"
+            "number": "#TG030",
+            "obtained": false,
+            "binder": false
         }
     ]
 }

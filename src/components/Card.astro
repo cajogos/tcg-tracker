@@ -10,7 +10,7 @@ interface Props {
 
 const { set, name, number }: Props = Astro.props;
 
-const imagePath = `/images/${set}/${set}-${number.replace('#', '')}.webp`;
+const imagePath = `/images/${set}/${set}-${number.replace('#', '')}.png`;
 ---
 
 <li class="bg-indigo-50 p-4 rounded-md shadow-sm hover:bg-indigo-100 transition flex items-center space-x-4">
