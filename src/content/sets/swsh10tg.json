@@ -1,0 +1,130 @@
+{
+    "id": "swsh10tg",
+    "seriesId": "swsh",
+    "setNumber": "10",
+    "type": "tg",
+    "name": "Astral Radiance TG",
+    "releaseDate": "2022-05-27",
+    "cards": [
+        {
+            "name": "Abomasnow",
+            "number": "#TG001"
+        },
+        {
+            "name": "Flapple",
+            "number": "#TG002"
+        },
+        {
+            "name": "Kingdra",
+            "number": "#TG003"
+        },
+        {
+            "name": "Frosmoth",
+            "number": "#TG004"
+        },
+        {
+            "name": "Gardevoir",
+            "number": "#TG005"
+        },
+        {
+            "name": "Wyrdeer",
+            "number": "#TG006"
+        },
+        {
+            "name": "Falinks",
+            "number": "#TG007"
+        },
+        {
+            "name": "Kleavor",
+            "number": "#TG008"
+        },
+        {
+            "name": "Mightyena",
+            "number": "#TG009"
+        },
+        {
+            "name": "Galarian Obstagoon",
+            "number": "#TG010"
+        },
+        {
+            "name": "Bronzong",
+            "number": "#TG011"
+        },
+        {
+            "name": "Hoothoot",
+            "number": "#TG012"
+        },
+        {
+            "name": "Starmie V",
+            "number": "#TG013"
+        },
+        {
+            "name": "Ice Rider Calyrex V",
+            "number": "#TG014"
+        },
+        {
+            "name": "Ice Rider Calyrex VMAX",
+            "number": "#TG015"
+        },
+        {
+            "name": "Galarian Articuno V",
+            "number": "#TG016"
+        },
+        {
+            "name": "Shadow Rider Calyrex V",
+            "number": "#TG017"
+        },
+        {
+            "name": "Shadow Rider Calyrex VMAX",
+            "number": "#TG018"
+        },
+        {
+            "name": "Galarian Zapdos V",
+            "number": "#TG019"
+        },
+        {
+            "name": "Galarian Moltres V",
+            "number": "#TG020"
+        },
+        {
+            "name": "Zacian V",
+            "number": "#TG021"
+        },
+        {
+            "name": "Zamazenta V",
+            "number": "#TG022"
+        },
+        {
+            "name": "Garchomp V",
+            "number": "#TG023"
+        },
+        {
+            "name": "Allister",
+            "number": "#TG024"
+        },
+        {
+            "name": "Bea",
+            "number": "#TG025"
+        },
+        {
+            "name": "Melony",
+            "number": "#TG026"
+        },
+        {
+            "name": "Milo",
+            "number": "#TG027"
+        },
+        {
+            "name": "Piers",
+            "number": "#TG028"
+        },
+        {
+            "name": "Ice Rider Calyrex VMAX",
+            "number": "#TG029"
+        },
+        {
+            "name": "Shadow Rider Calyrex VMAX",
+            "number": "#TG030"
+        }
+    ]
+}

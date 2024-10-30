@@ -1,54 +1,17 @@
-# Astro Starter Kit: Basics
+# TCG Tracker
 
-```sh
-npm create astro@latest -- --template basics
-```
+Welcome to **TCG Tracker**! This project is a fan-made, non-commercial tool designed to help fans of the Pokémon Trading Card Game (TCG) track their collections and find valuable card information.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Disclaimer
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+This repository contains images and assets that are the property of Nintendo, Game Freak, and The Pokémon Company. **I do not own any of these images or assets.** All rights belong to their respective owners.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+The assets in this repository are provided solely for **non-commercial, educational, and personal use**. No ownership or endorsement by the original copyright holders is claimed or implied.
 
-## 🚀 Project Structure
+If you are a copyright owner and would like any content removed, please contact me, and I will promptly comply.
 
-Inside of your Astro project, you'll see the following folders and files:
+## License
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+This project is provided for educational and personal use. No commercial use is allowed.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+For more details, see the [LICENSE](./LICENSE) file.
