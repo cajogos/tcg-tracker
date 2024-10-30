@@ -27,31 +27,39 @@ allSets.forEach((set) => {
 
 <Layout title="TCG Card Collection" description="My collection of trading cards">
 	<div class="container mx-auto py-12 px-4 sm:px-6 lg:px-8">
-		<h1 class="text-4xl font-bold text-center mb-12 text-gray-800">TCG Tracker</h1>
+		<h1 class="text-5xl font-extrabold text-center mb-16 text-gray-800">TCG Tracker</h1>
 
 		<div class="space-y-10">
 			{allSeries.map((series) => (
-				<div class="bg-white p-8 border border-gray-200 rounded-lg shadow-lg transition transform hover:scale-105">
-					<h2 class="text-3xl font-bold text-indigo-700 mb-6">
-						<span class="text-gray-600">Series:</span> {series.data.name}
+				<div class="bg-white p-10 border border-gray-200 rounded-lg shadow-xl transition transform hover:scale-105">
+					<h2 class="text-3xl font-semibold text-indigo-800 mb-8">
+						<span class="text-gray-500">Series:</span> {series.data.name}
 					</h2>
-					<ul class="space-y-3">
+					<ul class="space-y-4">
 						{series.data.sets.map((set: any) => {
 
 							const setStyles = set.cardCount > 0
-								? "bg-indigo-50 p-4 rounded-md shadow-sm hover:bg-indigo-100 transition"
-								: "bg-gray-100 p-4 rounded-md shadow-sm opacity-50 cursor-not-allowed";
+								? "bg-gradient-to-r from-indigo-50 to-indigo-100 p-6 rounded-lg shadow-md hover:shadow-lg hover:from-indigo-100 hover:to-indigo-200 transition-transform transform hover:scale-105"
+								: "bg-gray-100 p-6 rounded-lg shadow-md opacity-50 cursor-not-allowed";
 
 							return (
-								<li class={setStyles}>
-									<div class="flex justify-between items-center">
-										<div>
-											<strong class="text-gray-800">Set:</strong> <span class="text-indigo-700">{set.data.name}</span>
+								<li>
+									<a href={`/set/${set.id}`} class={`${setStyles} block`}>
+										<div class="flex items-center space-x-4">
+											<div class="flex-shrink-0 bg-indigo-200 rounded-full w-12 h-12 flex items-center justify-center text-indigo-600 font-bold">
+												{set.data.name.charAt(0).toUpperCase()}
+											</div>
+											<div class="flex-1">
+												<div class="text-lg font-bold text-indigo-800">{set.data.name}</div>
+												<div class="text-sm text-gray-500">Cards: {set.cardCount}</div>
+											</div>
+											<div class="text-indigo-600 flex items-center">
+												<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+													<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+												</svg>
+											</div>
 										</div>
-										<div class="text-gray-600">
-											<strong>Cards:</strong> {set.cardCount}
-										</div>
-									</div>
+									</a>
 								</li>
 							);
 						})}

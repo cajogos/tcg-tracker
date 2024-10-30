@@ -24,6 +24,8 @@ const setsCollection = defineCollection({
         cards: z.array(z.object({
             name: z.string(),
             number: z.string(),
+            obtained: z.boolean(),
+            binder: z.boolean(),
         })),
     }),
 });
