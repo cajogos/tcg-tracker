@@ -24,7 +24,6 @@ const {
     description={`Details about the ${set.data.name} set`}
 >
     <div class="container mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <!-- Back to All Sets Link -->
         <div class="mb-6">
             <a
                 href="/"
@@ -87,13 +86,14 @@ const {
                 <button
                     id="closeModal"
                     class="absolute top-2 right-2 text-black text-lg font-bold"
-                    >✕</button
                 >
+                    <span>✕</span>
+                </button>
                 <img
                     id="modalImage"
                     src=""
                     alt="Card Preview"
-                    class="max-w-full max-h-screen"
+                    class="max-w-full max-h-screen mx-auto"
                 />
             </div>
         </div>

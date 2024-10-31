@@ -1,5 +1,6 @@
 ---
 import { Image } from "astro:assets";
+import { getImageUrl } from '../utils';
 
 interface Props {
 	set: string;
@@ -11,7 +12,7 @@ interface Props {
 
 const { set, name, number, obtained, binder }: Props = Astro.props;
 
-const imagePath = `/images/${set}/${set}-${number.replace("#", "")}.png`;
+const imagePath = getImageUrl(set, number);
 ---
 
 <li
