@@ -9,7 +9,7 @@
         {
             "name": "Flareon",
             "number": "#TG001",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
@@ -21,8 +21,8 @@
         {
             "name": "Octillery",
             "number": "#TG003",
-            "obtained": false,
-            "binder": false
+            "obtained": true,
+            "binder": true
         },
         {
             "name": "Jolteon",

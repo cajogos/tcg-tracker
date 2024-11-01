@@ -73,26 +73,27 @@ const setsWithPages = setOrder.map((setId) => {
 
                 {pages.map((page, pageIndex) => (
                     <div class="mb-10 p-4 rounded-lg border border-gray-200 bg-white">
-                        <div class="grid grid-cols-3 gap-6">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                             {page.map((card) => (
                                 card ? (
-                                    <div class={`relative bg-white p-4 rounded-md shadow hover:shadow-md transition transform hover:-translate-y-1 flex flex-col items-center ${card.binder ? '' : 'opacity-50'} hover:opacity-100`}>
+                                    <div class={`relative bg-white p-4 rounded-md shadow hover:shadow-md transition transform hover:-translate-y-1 flex flex-col items-center hover:opacity-100 ${card.obtained && !card.binder ? 'border-2 border-blue-500 opacity-70' : ''} ${card.obtained && card.binder ? 'opacity-100' : 'border-2 border-red-500 opacity-50'}`}>
 
-                                        <div class="absolute top-2 left-2 flex space-x-2">
+                                        {/* Conditional Labels with Responsive Sizing */}
+                                        <div class="absolute top-2 left-2 flex flex-col sm:flex-row space-y-1 sm:space-y-0 sm:space-x-2">
                                             {card.obtained && (
-                                                <span class="text-xs font-semibold text-green-700 bg-green-100 px-2 py-1 rounded-full">Obtained</span>
+                                                <span class="text-[10px] sm:text-xs font-semibold text-green-700 bg-green-100 px-2 py-1 rounded-full">Obtained</span>
                                             )}
                                             {card.binder && (
-                                                <span class="text-xs font-semibold text-blue-700 bg-blue-100 px-2 py-1 rounded-full">In Binder</span>
+                                                <span class="text-[10px] sm:text-xs font-semibold text-blue-700 bg-blue-100 px-2 py-1 rounded-full">In Binder</span>
                                             )}
                                         </div>
 
-                                        <img src={card.img} alt={card.name} class="mb-4 w-48" />
-                                        <h2 class="text-lg font-semibold text-gray-800 text-center">{card.name}</h2>
-                                        <p class="text-sm text-gray-500 text-center">{card.set} - {card.number}</p>
+                                        <img src={card.img} alt={card.name} class="mb-4 w-32 h-40 sm:w-48 sm:h-64" />
+                                        <h2 class="text-sm sm:text-lg font-semibold text-gray-800 text-center">{card.name}</h2>
+                                        <p class="text-xs sm:text-sm text-gray-500 text-center">{card.set} - {card.number}</p>
                                     </div>
                                 ) : (
-                                    <div class="bg-gray-100 p-4 rounded-md shadow-inner flex items-center mx-auto justify-center w-48 h-64">
+                                    <div class="bg-gray-100 p-4 rounded-md shadow-inner flex items-center mx-auto justify-center w-32 h-40 sm:w-48 sm:h-64">
                                         <p class="text-gray-400 text-center">Empty Slot</p>
                                     </div>
                                 )
