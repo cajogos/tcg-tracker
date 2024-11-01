@@ -10,181 +10,181 @@
             "name": "Braixen",
             "number": "#TG001",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Milotic",
             "number": "#TG002",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Flaaffy",
             "number": "#TG003",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Jynx",
             "number": "#TG004",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Gardevoir",
             "number": "#TG005",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Malamar",
             "number": "#TG006",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Rockruff",
             "number": "#TG007",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Passimian",
             "number": "#TG008",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Druddigon",
             "number": "#TG009",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Smeargle",
             "number": "#TG010",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Altaria",
             "number": "#TG011",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Kricketune V",
             "number": "#TG012",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Serperior V",
             "number": "#TG013",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Blaziken V",
             "number": "#TG014",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Blaziken VMAX",
             "number": "#TG015",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Zeraora V",
             "number": "#TG016",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Mawile V",
             "number": "#TG017",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Corviknight V",
             "number": "#TG018",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Corviknight VMAX",
             "number": "#TG019",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Rayquaza VMAX",
             "number": "#TG020",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Duraludon VMAX",
             "number": "#TG021",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Blissey V",
             "number": "#TG022",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Friends in Galar",
             "number": "#TG023",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Gordie",
             "number": "#TG024",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Judge",
             "number": "#TG025",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Professor Burnet",
             "number": "#TG026",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Raihan",
             "number": "#TG027",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Sordward & Shielbert",
             "number": "#TG028",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Rayquaza VMAX",
             "number": "#TG029",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Duraludon VMAX",
             "number": "#TG030",
             "obtained": true,
-            "binder": false
+            "binder": true
         }
     ]
 }
