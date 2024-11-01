@@ -12,6 +12,9 @@ const seriesCollection = defineCollection({
         sets: z.array(z.object({
             set: z.any(),
             cardCount: z.number(),
+            cardsObtained: z.number(),
+            cardsInBinder: z.number(),
+            cardsNotObtained: z.number(),
         })),
     }),
 });

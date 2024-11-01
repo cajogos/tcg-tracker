@@ -9,181 +9,181 @@
         {
             "name": "Parasect",
             "number": "#TG001",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Roserade",
             "number": "#TG002",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Charizard",
             "number": "#TG003",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Chandelure",
             "number": "#TG004",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Pikachu",
             "number": "#TG005",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Gengar",
             "number": "#TG006",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Banette",
             "number": "#TG007",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Hisuian Arcanine",
             "number": "#TG008",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Spiritomb",
             "number": "#TG009",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Snorlax",
             "number": "#TG010",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Castform",
             "number": "#TG011",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Orbeetle V",
             "number": "#TG012",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Orbeetle VMAX",
             "number": "#TG013",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Centiskorch V",
             "number": "#TG014",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Centiskorch VMAX",
             "number": "#TG015",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Pikachu V",
             "number": "#TG016",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Pikachu VMAX",
             "number": "#TG017",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Enamorus V",
             "number": "#TG018",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Gallade V",
             "number": "#TG019",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Crobat V",
             "number": "#TG020",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Eternatus V",
             "number": "#TG021",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Eternatus VMAX",
             "number": "#TG022",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Adventurer's Discovery",
             "number": "#TG023",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Boss's Orders",
             "number": "#TG024",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Cook",
             "number": "#TG025",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Kabu",
             "number": "#TG026",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Nessa",
             "number": "#TG027",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Opal",
             "number": "#TG028",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Pikachu VMAX",
             "number": "#TG029",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         },
         {
             "name": "Mew VMAX",
             "number": "#TG030",
-            "obtained": false,
+            "obtained": true,
             "binder": false
         }
     ]

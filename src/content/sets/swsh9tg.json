@@ -10,7 +10,7 @@
             "name": "Flareon",
             "number": "#TG001",
             "obtained": true,
-            "binder": false
+            "binder": true
         },
         {
             "name": "Vaporeon",
@@ -33,14 +33,14 @@
         {
             "name": "Zekrom",
             "number": "#TG005",
-            "obtained": false,
-            "binder": false
+            "obtained": true,
+            "binder": true
         },
         {
             "name": "Dusknoir",
             "number": "#TG006",
-            "obtained": false,
-            "binder": false
+            "obtained": true,
+            "binder": true
         },
         {
             "name": "Dedenne",
@@ -51,32 +51,32 @@
         {
             "name": "Alcremie",
             "number": "#TG008",
-            "obtained": false,
-            "binder": false
+            "obtained": true,
+            "binder": true
         },
         {
             "name": "Ariados",
             "number": "#TG009",
-            "obtained": false,
-            "binder": false
+            "obtained": true,
+            "binder": true
         },
         {
             "name": "Houndoom",
             "number": "#TG010",
-            "obtained": false,
-            "binder": false
+            "obtained": true,
+            "binder": true
         },
         {
             "name": "Eevee",
             "number": "#TG011",
-            "obtained": false,
-            "binder": false
+            "obtained": true,
+            "binder": true
         },
         {
             "name": "Oranguru",
             "number": "#TG012",
-            "obtained": false,
-            "binder": false
+            "obtained": true,
+            "binder": true
         },
         {
             "name": "Boltund V",
@@ -177,14 +177,14 @@
         {
             "name": "Single Strike Urshifu VMAX",
             "number": "#TG029",
-            "obtained": false,
-            "binder": false
+            "obtained": true,
+            "binder": true
         },
         {
             "name": "Rapid Strike Urshifu VMAX",
             "number": "#TG030",
-            "obtained": false,
-            "binder": false
+            "obtained": true,
+            "binder": true
         }
     ]
 }

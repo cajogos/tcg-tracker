@@ -16,10 +16,15 @@ for (let i = 0; i < allSeries.length; i++) {
 allSets.forEach((set) => {
 	const series = allSeries.find((series) => series.id === set.data.seriesId);
 	if (series) {
-		// Add the set to the series's sets array
+		const cardsObtained = set.data.cards.filter((card) => card.obtained);
+		const cardsInBinder = set.data.cards.filter((card) => card.binder);
+		const cardsNotObtained = set.data.cards.filter((card) => !card.obtained);
 		series.data.sets.push({
 			...set,
 			cardCount: set.data.cards.length, // Add card count directly to the set
+			cardsObtained: cardsObtained.length,
+			cardsInBinder: cardsInBinder.length,
+			cardsNotObtained: cardsNotObtained.length
 		});
 	}
 });
@@ -27,7 +32,7 @@ allSets.forEach((set) => {
 
 <Layout title="TCG Card Collection" description="My collection of trading cards">
 	<div class="container mx-auto py-12 px-4 sm:px-6 lg:px-8">
-		<h1 class="text-5xl font-extrabold text-center mb-16 text-gray-800">TCG Tracker</h1>
+		<h1 class="text-5xl font-extrabold text-center mb-16 text-gray-800">My TCG Tracker</h1>
 
 		<a href="/binder" class="text-indigo-600 hover:text-indigo-800 font-semibold inline-block mb-8">
 			View Binder
@@ -35,25 +40,31 @@ allSets.forEach((set) => {
 
 		<div class="space-y-10">
 			{allSeries.map((series) => (
-				<div class="bg-white p-10 border border-gray-200 rounded-lg shadow-xl transition transform hover:scale-105">
+				<div class="bg-white p-8 border border-gray-200 rounded-lg shadow-lg transition transform hover:scale-105">
 					<h2 class="text-3xl font-semibold text-indigo-800 mb-8">
 						<span class="text-gray-500">Series:</span> {series.data.name}
 					</h2>
 					<ul class="space-y-4">
 						{series.data.sets.map((set: any) => {
-
 							if (set.cardCount === 0) return null;
 
 							return (
 								<li>
-									<a href={`/set/${set.id}`} class={`bg-gradient-to-r from-indigo-50 to-indigo-100 p-6 rounded-lg shadow-md hover:shadow-lg hover:from-indigo-100 hover:to-indigo-200 transition-transform transform hover:scale-105 block`}>
+									<a href={`/set/${set.id}`} class="block bg-gradient-to-r from-indigo-50 via-white to-indigo-100 p-6 rounded-lg shadow-md hover:shadow-lg transition-transform transform hover:scale-105 border border-gray-200">
 										<div class="flex items-center space-x-4">
-											<div class="flex-shrink-0 bg-indigo-200 rounded-full w-12 h-12 flex items-center justify-center text-indigo-600 font-bold">
+											<div class="flex-shrink-0 bg-indigo-200 rounded-full w-14 h-14 flex items-center justify-center text-indigo-600 font-bold">
 												{set.data.name.charAt(0).toUpperCase()}
 											</div>
 											<div class="flex-1">
 												<div class="text-lg font-bold text-indigo-800">{set.data.name}</div>
-												<div class="text-sm text-gray-500">Cards: {set.cardCount}</div>
+												<div class="text-sm text-gray-500 mt-1">
+													<strong>Total Cards:</strong> {set.cardCount}
+												</div>
+												<div class="flex space-x-2 mt-2">
+													<span class="text-xs font-semibold text-green-600 bg-green-100 px-2 py-1 rounded-full">Obtained: {set.cardsObtained}</span>
+													<span class="text-xs font-semibold text-blue-600 bg-blue-100 px-2 py-1 rounded-full">In Binder: {set.cardsInBinder}</span>
+													<span class="text-xs font-semibold text-red-600 bg-red-100 px-2 py-1 rounded-full">Not Obtained: {set.cardsNotObtained}</span>
+												</div>
 											</div>
 											<div class="text-indigo-600 flex items-center">
 												<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
