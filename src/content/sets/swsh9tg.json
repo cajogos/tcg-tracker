@@ -45,8 +45,8 @@
         {
             "name": "Dedenne",
             "number": "#TG007",
-            "obtained": false,
-            "binder": false
+            "obtained": true,
+            "binder": true
         },
         {
             "name": "Alcremie",
@@ -81,8 +81,8 @@
         {
             "name": "Boltund V",
             "number": "#TG013",
-            "obtained": false,
-            "binder": false
+            "obtained": true,
+            "binder": true
         },
         {
             "name": "Sylveon V",
@@ -117,20 +117,20 @@
         {
             "name": "Single Strike Urshifu VMAX",
             "number": "#TG019",
-            "obtained": false,
-            "binder": false
+            "obtained": true,
+            "binder": true
         },
         {
             "name": "Rapid Strike Urshifu V",
             "number": "#TG020",
-            "obtained": false,
-            "binder": false
+            "obtained": true,
+            "binder": true
         },
         {
             "name": "Rapid Strike Urshifu VMAX",
             "number": "#TG021",
-            "obtained": false,
-            "binder": false
+            "obtained": true,
+            "binder": true
         },
         {
             "name": "Umbreon V",
@@ -147,32 +147,32 @@
         {
             "name": "Acerola's Premonition",
             "number": "#TG024",
-            "obtained": false,
-            "binder": false
+            "obtained": true,
+            "binder": true
         },
         {
             "name": "Café Master",
             "number": "#TG025",
-            "obtained": false,
-            "binder": false
+            "obtained": true,
+            "binder": true
         },
         {
             "name": "Gloria",
             "number": "#TG026",
-            "obtained": false,
-            "binder": false
+            "obtained": true,
+            "binder": true
         },
         {
             "name": "Rapid Strike Style Mustard",
             "number": "#TG027",
-            "obtained": false,
-            "binder": false
+            "obtained": true,
+            "binder": true
         },
         {
             "name": "Single Strike Style Mustard",
             "number": "#TG028",
-            "obtained": false,
-            "binder": false
+            "obtained": true,
+            "binder": true
         },
         {
             "name": "Single Strike Urshifu VMAX",
